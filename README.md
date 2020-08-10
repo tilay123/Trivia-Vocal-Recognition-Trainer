@@ -14,6 +14,9 @@ You will listen to a random voice clip of a celebrity, then you will identify th
 
 But wait, there more! Try it out.
 
+## Screenshot:
+
+<img src="./asset/sample.png" height="400">
 
 ## How to run this program?
 

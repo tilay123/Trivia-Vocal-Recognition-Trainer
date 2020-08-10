@@ -292,10 +292,20 @@ class _AnswerSelectionPageState extends State<AnswerSelectionPage> {
                 child: Center(
                     child: Container(
                         padding: EdgeInsets.all(10),
-                        child: Text(
-                          "Listen to the audio clip then determine who the speaker is.",
-                          style: TextStyle(
-                              fontSize: 15, fontWeight: FontWeight.w700),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
+                          children: [
+                            Text(
+                              "Who is the speaker?",
+                              style: TextStyle(
+                                  fontSize: 20, fontWeight: FontWeight.w700),
+                            ),
+                            Text(
+                              "Turn up the volume 🔊",
+                              style: TextStyle(
+                                  fontSize: 15, fontWeight: FontWeight.w700),
+                            ),
+                          ],
                         ))),
               ),
 
