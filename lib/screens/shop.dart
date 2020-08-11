@@ -80,7 +80,27 @@ class ShopBottomNavigation extends StatelessWidget {
                         style: TextStyle(color: Colors.white),
                       ),
                       color: Colors.green,
-                      onPressed: () {},
+                      onPressed: () {
+                        showDialog<void>(
+                          context: context,
+                          barrierDismissible: true,
+                          // false = user must tap button, true = tap outside dialog
+                          builder: (BuildContext dialogContext) {
+                            return AlertDialog(
+                              title: Text('In app purchase not implemented'),
+                              actions: <Widget>[
+                                FlatButton(
+                                  child: Text('Ok'),
+                                  onPressed: () {
+                                    Navigator.of(dialogContext)
+                                        .pop(); // Dismiss alert dialog
+                                  },
+                                ),
+                              ],
+                            );
+                          },
+                        );
+                      },
                     ),
                   ],
                 ),
