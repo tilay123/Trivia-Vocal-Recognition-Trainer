@@ -64,25 +64,18 @@ final SubCategory billionaire = new SubCategory(
     subCategoryName: "Billionaires",
     questionList: [
       Question(
-        questionUrl: "Question URL",
-        correctAnswer: "Correct Answer",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/celeb/billionaires/elonmusk.m4a",
+        correctAnswer: "Elon Musk",
+        wrongAnswer1: "Bill Gates",
+        wrongAnswer2: "Jeff Bezos",
+        wrongAnswer3: "Til Baniya",
       ),
       Question(
         questionUrl: "Question URL-2",
-        correctAnswer: "Correct Answer-2",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
-      ),
-      Question(
-        questionUrl: "Question URL3",
-        correctAnswer: "Correct Answer3",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        correctAnswer: "Jeff Bezos",
+        wrongAnswer1: "Elon Musk",
+        wrongAnswer2: "Bill Gates",
+        wrongAnswer3: "Warren Buffett",
       ),
     ]);
 
