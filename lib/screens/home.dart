@@ -18,7 +18,6 @@ import 'package:voicelytrivia/model/dataProvider.dart';
 import 'package:voicelytrivia/helpers/popUps.dart';
 import 'package:countdown_flutter/countdown_flutter.dart';
 
-
 class HomeBottomNavigation extends StatelessWidget {
   const HomeBottomNavigation({
     Key key,
@@ -85,7 +84,7 @@ class HomeBottomNavigation extends StatelessWidget {
 
                       int index = random.nextInt(categories.data.length);
 
-                      Navigator.pushReplacement(
+                      Navigator.push(
                           context,
                           MaterialPageRoute(
                               builder: (context) => AnswerSelectionPage(
@@ -324,7 +323,7 @@ class _HelperTextAndButtonState extends State<HelperTextAndButton> {
     } else if (widget.currentSubCategory.isWaiting == true) {
       // && categories.data[indexes[0]][indexes[1]].remainingPlay < 5
       DateTime endTime = widget.currentSubCategory.startTime
-          .add(Duration(seconds: 15)); // hours: 2
+          .add(Duration(minutes: 1)); // hours: 2
 
       if (DateTime.now().isBefore(endTime)) {
         //print(DateTime.now().difference(currentSubCategory.startTime));
@@ -397,7 +396,7 @@ class _HelperTextAndButtonState extends State<HelperTextAndButton> {
 //      "Completed:${5 - currentSubCategory.remainingPlay}/5, Left: ${currentSubCategory.remainingPlay}",
 //      style: TextStyle(color: Colors.white),
 //    );
-  //  print("currentSubCategory.remainingPlay ${widget.currentSubCategory.playedThisManyTimes}");
+    //  print("currentSubCategory.remainingPlay ${widget.currentSubCategory.playedThisManyTimes}");
 
     return Column(
       children: <Widget>[
@@ -425,12 +424,12 @@ class _HelperTextAndButtonState extends State<HelperTextAndButton> {
 
           if (widget.currentSubCategory.playedThisManyTimes == 5) {
             // categories.data[widget.parentIndex][index].remainingPlay = 5;
-           // print("remainingPlay is five 5 ${widget.currentSubCategory.playedThisManyTimes}");
+            // print("remainingPlay is five 5 ${widget.currentSubCategory.playedThisManyTimes}");
             //    currentSubCategory.isWaiting = true;
             categories.data[widget.indexes[0]][widget.indexes[1]].isWaiting =
                 true;
 
-        //    print("currentSubCategory.isWaiting = true;${widget.currentSubCategory.isWaiting = true}");
+            //    print("currentSubCategory.isWaiting = true;${widget.currentSubCategory.isWaiting = true}");
 
             Provider.of<DataKeeper>(context, listen: false).updateIsWaiting(
                 widget.currentSubCategory.isWaiting,

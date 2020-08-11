@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:voicelytrivia/model/currency.dart';
 
 import 'question.dart';
-import 'subCategoryType.dart';
 import 'dart:math';
 
 class SubCategory {
