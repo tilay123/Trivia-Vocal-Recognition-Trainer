@@ -20,25 +20,18 @@ final SubCategory theAmericans = new SubCategory(
     price: 200,
     questionList: [
       Question(
-        questionUrl: "Question URL",
-        correctAnswer: "Correct Answer",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/tvShows/theAmericans/ElizabethJennings.m4a",
+        correctAnswer: "Elizabeth Jennings",
+        wrongAnswer1: "Paige Jennings",
+        wrongAnswer2: "Claudia",
+        wrongAnswer3: "Nina Sergeevna",
       ),
       Question(
-        questionUrl: "Question URL-2",
-        correctAnswer: "Correct Answer-2",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
-      ),
-      Question(
-        questionUrl: "Question URL3",
-        correctAnswer: "Correct Answer3",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/tvShows/theAmericans/StanBeeman.m4a",
+        correctAnswer: "Stan Beeman",
+        wrongAnswer1: "Philip Jennings",
+        wrongAnswer2: "Henry Jennings",
+        wrongAnswer3: "Arkady Ivanovich",
       ),
     ]);
 
@@ -49,25 +42,18 @@ final SubCategory gameOfThrones = new SubCategory(
     currency: Currency.DIAMOND,
     questionList: [
       Question(
-        questionUrl: "Question URL",
-        correctAnswer: "Correct Answer",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/tvShows/gameOfThrones/DaenerysTargaryen.m4a",
+        correctAnswer: "Daenerys Targaryen",
+        wrongAnswer1: "Arya Stark",
+        wrongAnswer2: "Sansa Stark",
+        wrongAnswer3: "Cersei Lannister",
       ),
       Question(
-        questionUrl: "Question URL-2",
-        correctAnswer: "Correct Answer-2",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
-      ),
-      Question(
-        questionUrl: "Question URL3",
-        correctAnswer: "Correct Answer3",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/tvShows/gameOfThrones/JonSnow.m4a",
+        correctAnswer: "Jon Snow",
+        wrongAnswer1: "Khal Drogo",
+        wrongAnswer2: "Ned Stark",
+        wrongAnswer3: "Tyrion Lannister",
       ),
     ]);
 

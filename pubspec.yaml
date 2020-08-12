@@ -60,6 +60,13 @@ flutter:
     - asset/
     - asset/audios/celeb/singers/
     - asset/audios/celeb/billionaires/
+    - asset/audios/celeb/motivators/
+    - asset/audios/AnimatedTvShows/familyGuy/
+    - asset/audios/AnimatedTvShows/rick_and_morty/
+    - asset/audios/movies/ForrestGump/
+    - asset/audios/movies/harryPotter/
+    - asset/audios/tvShows/gameOfThrones/
+    - asset/audios/tvShows/theAmericans/
 
 
 

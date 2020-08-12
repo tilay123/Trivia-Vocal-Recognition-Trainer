@@ -113,25 +113,18 @@ final SubCategory motivators = new SubCategory(
     price: 4,
     questionList: [
       Question(
-        questionUrl: "Question URL",
-        correctAnswer: "Correct Answer",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/celeb/motivators/BearGrylls.m4a",
+        correctAnswer: "Bear Grylls",
+        wrongAnswer1: "Cesar Millan",
+        wrongAnswer2: "Tony Robbins",
+        wrongAnswer3: "Mr. T",
       ),
       Question(
-        questionUrl: "Question URL-2",
-        correctAnswer: "Correct Answer-2",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
-      ),
-      Question(
-        questionUrl: "Question URL3",
-        correctAnswer: "Correct Answer3",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/celeb/motivators/tonyRobbins.m4a",
+        correctAnswer: "Tony Robbins",
+        wrongAnswer1: "Cesar Millan",
+        wrongAnswer2: "Eric Thomas",
+        wrongAnswer3: "Gary Vaynerchuk",
       ),
     ]);
 

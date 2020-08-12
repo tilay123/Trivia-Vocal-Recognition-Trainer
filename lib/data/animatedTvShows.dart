@@ -5,11 +5,11 @@ import 'package:voicelytrivia/model/subCategory.dart';
 //List<String> celebrities = [];
 List<SubCategory> animatedTvShows = [
   familyGuy,
+  rickAndMorty,
   pokemon,
   attackOnTitan,
   southPark,
   pjmasks,
-  rickAndMorty,
   castlevania
 ];
 
@@ -20,25 +20,19 @@ final SubCategory familyGuy = new SubCategory(
     price: 4,
     questionList: [
       Question(
-        questionUrl: "Question URL",
-        correctAnswer: "Correct Answer",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/AnimatedTvShows/familyGuy/PeterGriffin.m4a",
+        correctAnswer: "Peter Griffin",
+        wrongAnswer1: "Stewie Griffin",
+        wrongAnswer2: "Glenn Quagmire",
+        wrongAnswer3: "Brian Griffin",
       ),
       Question(
-        questionUrl: "Question URL-2",
-        correctAnswer: "Correct Answer-2",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
-      ),
-      Question(
-        questionUrl: "Question URL3",
-        correctAnswer: "Correct Answer3",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl:
+            "asset/audios/AnimatedTvShows/familyGuy/Stewie_Griffin.m4a",
+        correctAnswer: "Stewie Griffin",
+        wrongAnswer1: "Glenn Quagmire",
+        wrongAnswer2: "Brian Griffin",
+        wrongAnswer3: "Peter Griffin",
       ),
     ]);
 
@@ -136,25 +130,18 @@ final SubCategory rickAndMorty = new SubCategory(
     price: 350,
     questionList: [
       Question(
-        questionUrl: "Question URL",
-        correctAnswer: "Correct Answer",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/AnimatedTvShows/rick_and_morty/rick.m4a",
+        correctAnswer: "Rick Sanchez",
+        wrongAnswer1: "Morty Smith",
+        wrongAnswer2: "Summer Smith",
+        wrongAnswer3: "Jerry Smith",
       ),
       Question(
-        questionUrl: "Question URL-2",
-        correctAnswer: "Correct Answer-2",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
-      ),
-      Question(
-        questionUrl: "Question URL3",
-        correctAnswer: "Correct Answer3",
-        wrongAnswer1: "Wrong Answer 1",
-        wrongAnswer2: "Wrong Answer 2",
-        wrongAnswer3: "Wrong Answer 3",
+        questionUrl: "asset/audios/AnimatedTvShows/rick_and_morty/morty.m4a",
+        correctAnswer: "Morty Smith",
+        wrongAnswer1: "Rick Sanchez",
+        wrongAnswer2: "Summer Smith",
+        wrongAnswer3: "Jerry Smith",
       ),
     ]);
 
