@@ -22,7 +22,7 @@ But wait, there more! Try it out.
 
 1. Install Android Studio and Flutter. This video may be helpful: https://youtu.be/hL7pkX1Pfko
 2. Install Android or IOS emulator, or both. --This app works on both Android and IOS.
-3. Install required packages by running the command "flutter pub get" on your Android Studio Terminal or go pubspec.yaml file then click the "pub get" button.
+3. Install required packages by running the command "flutter pub get" on your Android Studio Terminal or go to pubspec.yaml file then click the "pub get" button.
 4. Run.
 
 
