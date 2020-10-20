@@ -1,4 +1,4 @@
-# Trivia: Vocal Recognition Trainer
+# Trivia: Voice Recognition Trainer
 
 An interactive trivia game that test your vocal recognition abilities.
 
